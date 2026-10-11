@@ -59,10 +59,21 @@ Run tests:
 python3 -m unittest discover -s tests
 ```
 
+Run Piero's evidence demo:
+
+```bash
+python3 -m src.channel_detective.evidence_lab --mode demo
+```
+
+Compare how uncertainty changes with public sample size:
+
+```bash
+python3 -m src.channel_detective.evidence_lab --mode sweep --scenario intercept
+```
+
 ## Next Build Step
 
 Use the simulator as the backend logic, then add either:
 
 - A FastAPI endpoint for `/simulate`.
 - A React interface with controls for scenario, sample size, and perturbation.
-
