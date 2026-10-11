@@ -29,6 +29,9 @@ The lab shows a BB84 exchange, keeps only matching-basis bits, samples part of t
 4. Reveal whether the run was ideal, intercept-resend, or noisy.
 5. Explain why errors alone do not prove an attacker.
 
+Prepared cases and judge-facing wording live in [docs/demo_cases.md](docs/demo_cases.md).
+The evidence layer contract for future backend/UI integration lives in [docs/evidence_contract.md](docs/evidence_contract.md).
+
 ## Team Split
 
 See [docs/team_roles.md](docs/team_roles.md) for the role split based on the three resumes.
